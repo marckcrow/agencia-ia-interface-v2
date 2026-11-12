@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Keep weekly-summary input and validation in a pure module and Gateway inference inside a POST server function; this isolates demo data from real systems and keeps credentials server-only.
+- Generate summaries only on explicit request and retain them in the session Query cache; this prevents billable calls on navigation or reload without adding persistence.

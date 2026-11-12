@@ -39,7 +39,7 @@ export function Button({ children, variant = "primary", ...p }: React.ButtonHTML
 export function SimNotice() {
   return (
     <div className="mb-6 rounded-lg border border-accent/50 bg-sim px-4 py-2.5 text-sm text-accent-foreground">
-      <strong>Modo simulação:</strong> todos os dados exibidos são demonstrativos. Nenhuma integração real está ativa.
+      <strong>Modo simulação:</strong> dados demonstrativos, sem conexão com o sistema original. Os resumos do painel usam AI Gateway; nenhuma publicação é realizada.
     </div>
   );
 }
